@@ -1,8 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    
+    font-size: 22px;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 #banner {
     width: 100%;
 }
 
-.main{
+
+.main {
     background: #8d8d8d;
     padding: 30px;
 }
